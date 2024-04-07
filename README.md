@@ -12,7 +12,8 @@ It is important to notice that the raw binary instructions to be loaded must fol
 ## This Implementation
 The current implementation is a fibonacci sequence calculator, that given n as parameter will return the nth fibonacci term in the sequence.
 
+## WARNING ⚠️
 The assembly code in [fib.s](fib.s) is platform specific and will only work under:
 `Linux localhost 4.19.157-perf-27940246-abA235FXXU4DXA3 #1 SMP PREEMPT Thu Jan 18 13:59:45 +07 2024 aarch64 Android
 `.
-So you own will have to come with you platform `raw instructions data`. Although, the C program is platform agnostic.
+So you will have to come with you own platform `raw instructions data`. Although, the C program is platform agnostic.
