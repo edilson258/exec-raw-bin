@@ -1,5 +1,5 @@
 # exec-raw-bin
-A system that executes raw-binary written in C
+Small demonstration of a system that loads raw instructions to a memory region and then executes it.
 
 ## How it works
 1. This platform will map a memory region with execution permissions using [mmap](https://man7.org/linux/man-pages/man2/mmap.2.html)
